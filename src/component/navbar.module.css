@@ -1,0 +1,36 @@
+.NavContainer{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    /* border: solid; */
+    padding: 0.5rem;
+    background-color: #edf2f8 ;
+    height: 43px;
+}
+.NavContainer>h1{
+    margin-top: 4px;
+    color: #f73f57 ;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.linkdiv{
+    /* border: solid; */
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.links{
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size: large;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: #edf2f8;
+}
