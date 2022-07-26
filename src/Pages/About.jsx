@@ -13,7 +13,7 @@ const About = () => {
         <h1 style={{color:"#252c3a",textAlign:"left"}}>About</h1>
       </div>
       <ul className={styles.about} style={{}}>
-        <li>Hello my name is <span style={{color:"#f73f57"}}>Chetan Sharma</span>. I come from printing the word Welcome, to becoming a passionate 
+        <li>Hello my name is <span style={{color:"#f73f57"}}>Chetan Sharma</span>. I come from printing Hello World, to becoming a passionate 
         Full Stack Web Developer. I always push myself to learn new things and work on them with interest. I am 
         skilled, collaborative, and attentive.</li>
         <li>

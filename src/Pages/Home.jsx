@@ -20,13 +20,17 @@ const Home = () => {
               <a 
               className={styles.resumebtn} 
               href={"https://drive.google.com/file/d/1w-yBSKLc71i_Jvn4GIHFxl_xiNuTV9zF/view?usp=sharing"} 
-              target={'_blank'}>Resume</a></button>
+              target={'_blank'}
+              rel="noreferrer"
+              >Resume</a></button>
               <a href="https://github.com/cs2812" 
               className={styles.socialLink} 
+              rel="noreferrer"
               target={'_blank'}
               ><FaGithubSquare/></a>
               <a href="https://www.linkedin.com/in/chetan-sharma2812/"
               target={'_blank'}
+              rel="noreferrer"
                className={styles.socialLink}
                
                ><FaLinkedin/></a>
@@ -34,7 +38,7 @@ const Home = () => {
 
         </div>
         <div className={styles.introImg}>
-            <img src={chetan2} alt="My Image" />
+            <img src={chetan2} alt="My img" />
         </div>
 
         </div>

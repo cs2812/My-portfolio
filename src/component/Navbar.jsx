@@ -16,8 +16,8 @@ const Navbar = () => {
     to:"/project",
     title:"Project",
   },{
-    to:"/contect",
-    title:"Contect",
+    to:"/contact",
+    title:"Contact",
   },]
 
  let active = {
@@ -27,7 +27,7 @@ const Navbar = () => {
 
 };
 let bace = {
-  color: "black",
+  color: "#252c3a",
   textDecoration: "none",
 };
 
@@ -41,7 +41,7 @@ let bace = {
         style={({ isActive }) => (isActive ? active : bace)}
          className={styles.links}>{e.title}</NavLink>
 })}
-        <a style={bace} className={styles.links} href={"https://drive.google.com/file/d/1w-yBSKLc71i_Jvn4GIHFxl_xiNuTV9zF/view?usp=sharing"} target={'_blank'}>Resume</a>
+        <a style={bace} className={styles.links} rel="noreferrer" href={"https://drive.google.com/file/d/1w-yBSKLc71i_Jvn4GIHFxl_xiNuTV9zF/view?usp=sharing"} target={'_blank'}>Resume</a>
 
         </div>
     </div>
